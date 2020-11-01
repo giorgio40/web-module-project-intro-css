@@ -1,251 +1,294 @@
-    html,
-    body,
-    div,
-    span,
-    applet,
-    object,
-    iframe,
-    table,
-    caption,
-    tbody,
-    tfoot,
-    thead,
-    tr,
-    th,
-    td,
-    del,
-    dfn,
-    em,
-    font,
-    img,
-    ins,
-    kbd,
-    q,
-    s,
-    samp,
-    small,
-    strike,
-    strong,
-    sub,
-    sup,
-    tt,
-    var,
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    p,
-    blockquote,
-    pre,
-    a,
-    abbr,
-    acronym,
-    address,
-    big,
-    cite,
-    code,
-    dl,
-    dt,
-    dd,
-    ol,
-    ul,
-    li,
-    fieldset,
-    form,
-    label,
-    legend {
-        vertical-align: baseline;
-        font-family: inherit;
-        font-weight: inherit;
-        font-style: inherit;
-        font-size: 100%;
-        outline: 0;
-        padding: 0;
-        margin: 0;
-        border: 0;
-    }
-    /* remember to define focus styles! */
-    
-     :focus {
-        outline: 0;
-    }
-    
-    body {
-        background: white;
-        line-height: 1;
-        color: black;
-    }
-    
-    ol,
-    ul {
-        list-style: none;
-    }
-    /* tables still need cellspacing="0" in the markup */
-    
-    table {
-        border-collapse: separate;
-        border-spacing: 0;
-    }
-    
-    caption,
-    th,
-    td {
-        font-weight: normal;
-        text-align: left;
-    }
-    /* remove possible quote marks (") from <q> & <blockquote> */
-    
-    blockquote:before,
-    blockquote:after,
-    q:before,
-    q:after {
-        content: "";
-    }
-    
-    blockquote,
-    q {
-        quotes: "" "";
-    }
-    
-    html {
-        font-size: 62.5%;
-    }
-    
-    a {
-        padding: 3%;
-        border-radius: 20%;
-    }
-    
-    .MainNav {
-        display: inline;
-    }
-    
-    .nav_a {
-        background-color: #FF764E;
-        margin-top: 100px;
-        margin-right: 200px;
-        margin-left: 100px;
-        margin-bottom: 20px;
-        display: inline-block;
-    }
-    
-    .nav_b {
-        background-color: #5ED3EB;
-        margin-top: 30px;
-        margin-right: 200px;
-        margin-left: 300px;
-        margin-bottom: 10px;
-        display: inline-block;
-    }
-    
-    .nav_c {
-        background-color: #FFCD69;
-        margin-top: 30px;
-        margin-right: 200px;
-        margin-left: 300px;
-        margin-bottom: 10px;
-        display: inline-block;
-    }
-    
-    .header_image {
-        margin-top: 150px;
-        width: 20%;
-        height: 20%;
-        border-radius: 50%;
-        margin-left: 200px;
-    }
-    
-    h1 {
-        display: inline-block;
-        margin-left: 500px;
-        font-size: 5rem;
-        margin-bottom: 50px;
-        font-family: 'Chelsea Market', cursive;
-    }
-    
-    p {
-        display: block;
-        font-size: 20px;
-        font-family: 'Roboto Mono', monospace;
-        margin-left: 400px;
-    }
-    
-    .header_div {
-        margin-left: 200px;
-        margin-bottom: 50px;
-    }
-    
-    .first_div {
-        margin-bottom: 40px;
-        margin-left: 700px;
-    }
-    
-    .second_div {
-        margin-left: 80px;
-        text-align: center;
-        margin-bottom: 60px;
-    }
-    
-    .Third_div {
-        background-color: #DDB9A3;
-        margin-bottom: 0px;
-        text-align: center;
-    }
-    
-    .fire {
-        background-position: center;
-        padding: 3%;
-        display: inline-block;
-        width: 10%;
-        height: 10%;
-        margin-left: 1000px;
-    }
-    
-    .flat_icon {
-        width: 10%;
-        height: 10%;
-        display: inline-block;
-        margin-left: 1000px;
-        padding: 3%;
-    }
-    
-    .reservations {
-        text-align: center;
-    }
-    
-    .footer_img {
-        padding: 10px;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        width: 100%;
-        max-height: 30em;
-        margin: 80px;
-    }
-    
-    .navigation_a {
-        background-color: #FF764E;
-        margin-top: 100px;
-        margin-right: 200px;
-        margin-left: 200px;
-        margin-bottom: 20px;
-        padding: 3%;
-    }
-    
-    .navigation_b {
-        background-color: #5ED3EB;
-        margin-top: 100px;
-        margin-right: 250px;
-        margin-left: 250px;
-        margin-bottom: 10px;
-    }
-    
-    .navigation_c {
-        background-color: #FFCD69;
-        margin-top: 100px;
-        margin-right: 250px;
-        margin-left: 250px;
-        margin-bottom: 10px;
-    }
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend {
+    vertical-align: baseline;
+    font-family: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+
+/* remember to define focus styles! */
+
+body {
+    background: white;
+    line-height: 1;
+    color: black;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+
+/* tables still need cellspacing="0" in the markup */
+
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+caption,
+th,
+td {
+    font-weight: normal;
+    text-align: left;
+}
+
+
+/* remove possible quote marks (") from <q> & <blockquote> */
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+}
+
+blockquote,
+q {
+    quotes: "" "";
+}
+
+* {
+    box-sizing: border-box;
+    max-width: 100%:
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+a {
+    padding: 3%;
+    border-radius: 20%;
+}
+
+.nav_a {
+    background-color: #ff764e;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 2rem;
+    border-radius: 30%;
+}
+
+.nav_b {
+    background-color: #5ed3eb;
+    margin-top: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 30%;
+    margin-bottom: 3%;
+}
+
+.nav_c {
+    background-color: #ffcd69;
+    margin-top: 3%;
+    margin-left: 10%;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 2rem;
+    border-radius: 30%;
+    margin-bottom: 8%;
+    margin-right: 3%;
+}
+
+p {
+    font-family: Roberto Mono;
+}
+
+h1 {
+    font-size: 5rem;
+    margin-left: 28%;
+    font-family: Chelsea Market;
+    margin-bottom: 2%;
+    margin-top: 3%;
+}
+
+.first-paragraph {
+    text-align: center;
+}
+
+.second-paragraph {
+    display: block;
+    margin-top: 2%;
+    margin-left: 4%;
+    text-align: center;
+}
+
+.first-div {
+    width: 60%;
+    float: right;
+    margin-right: 8%;
+    height: 25vh;
+}
+
+.second-div {
+    height: 40vh;
+    background-color: #DDB9A3;
+    margin-top: 4%;
+}
+
+.second-div p {
+    color: white;
+    padding-top: 1%;
+    width: 100%;
+    font-size: 1.9vw;
+    text-align: justify;
+}
+
+.mountain {
+    border-radius: 50%;
+    height: 10%;
+    width: 20%;
+    margin-left: 3%;
+}
+
+p {
+    font-size: 2rem;
+    font-family: "Roboto Mono", monospace;
+}
+
+.middle-section {
+    width: 100%;
+    text-align: center;
+}
+
+.fire {
+    padding: 2%;
+    display: block;
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fire-paragraph {
+    float: right;
+}
+
+span {
+    font-weight: 900;
+}
+
+.flat_icon {
+    padding: 1%;
+    display: block;
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.reservations {
+    text-align: center;
+}
+
+.footer_img {
+    padding: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    max-height: 30em;
+    margin-bottom: 7%;
+}
+
+.navigation_d {
+    background-color: #ff764e;
+    margin-left: 10%;
+    margin-right: 20%;
+    text-decoration: none;
+    font-size: 2rem;
+    border-radius: 30%;
+}
+
+.navigation_e {
+    background-color: #5ed3eb;
+    text-decoration: none;
+    font-size: 2rem;
+    border-radius: 30%;
+}
+
+.navigation_f {
+    background-color: #ffcd69;
+    text-decoration: none;
+    font-size: 2rem;
+    border-radius: 30%;
+    margin-left: 20%;
+}
+
+footer {
+    height: 15vh;
+}
